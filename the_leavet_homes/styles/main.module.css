@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.topMessageContainer {
+  width: 100% !important;
+  background-color: #272831;
+  min-height: 15px;
+  position: relative;
+  padding: 1px;
+  border-bottom: 0.5px solid #ffffff;
+}
+.topMessage {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+.mainHeader {
+  background-color: #383a46;
+  min-height: 60px;
+}
+.navLink {
+  display: flex;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.categoryHolder {
+  min-height: 250px;
+  text-align: center;
+  padding: 10px;
+}
+.categoryImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  transition: 1s ease-in-out;
+}
+.categoryImage:hover {
+  -webkit-box-shadow: 2px 2px 12px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 12px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 12px -3px rgba(0, 0, 0, 0.75);
+}
+.categoryHolderName {
+  color: #42434d;
+}
+.categoryHeading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #42434d;
+  font-size: 30px !important;
+}
+.productHomeTitle {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #42434d;
+  font-size: 30px !important;
+}
+
+.productMainHolder {
+  min-height: 400px;
+  padding: 40px;
+}
+
+.productHolder {
+  width: 100%;
+  min-height: 400px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.productholder:hover {
+  -webkit-box-shadow: 2px 2px 12px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 12px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 12px -3px rgba(0, 0, 0, 0.75);
+}
+
+.productImage {
+  width: 75%;
+  height: 240px;
+  margin-left: 12.5%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.productName {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+.productCategory {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+.productActualPrice {
+  margin-left: 12.5%;
+  margin-right: 0.5%;
+  margin-top: -10px;
+  text-decoration: line-through;
+}
+.productOff {
+  margin-left: 2%;
+  margin-right: 12.5%;
+  margin-top: -10px;
+}
+.productCurrentPrice {
+  margin-left: 12.5%;
+  margin-right: 0.5%;
+  margin-top: -10px;
+}
+
+.footerContainer {
+  min-height: 500px;
+  background-color: #f9f9fb;
+  margin-top: 20px;
+}
+
+.logoHolder {
+  margin-top: 100px;
+}
+
+.footerTitle {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footerDetail {
+  font-size: 15px;
+}
+
+.footerInner {
+  margin-top: 100px;
+}
+
+.link {
+  text-decoration: none;
+  color: #42434d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.catelogueHolder {
+  min-height: 200px;
+  background-color: #f9f9fb;
+  margin-top: 20px;
+}
+
+.catelogueHeading {
+  margin-top: 30px !important;
+  margin-bottom: 20px;
+  color: #42434d;
+  font-size: 30px !important;
+}
+
+.catelogueDescription {
+  font-size: 15px;
+  width: 40%;
+}
+
+.downloadButton {
+  border-radius: none !important;
+  margin-bottom: 50px;
+  border: none;
+  width: 150px;
+  height: 35px;
+  background-color: #313652;
+  color: #ffffff;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+.banner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 10px;
+}
