@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import styles from "../../../styles/main.module.css";
+import Link from "next/link";
 
 export default function Index() {
   const [category, setCategory] = useState([
@@ -61,14 +62,19 @@ export default function Index() {
           {category.map((item) => {
             return (
               <Col md={3} className={styles.categoryHolder} key={item.id}>
-                <center>
-                  <Image
-                    src={item.image}
-                    fluid
-                    className={styles.categoryImage}
-                  />
-                </center>
-                <p className={styles.categoryHolderName}>{item.name}</p>
+                <Link
+                  href={"categoryProduct?id=" + item.id}
+                  className={styles.link}
+                >
+                  <center>
+                    <Image
+                      src={item.image}
+                      fluid
+                      className={styles.categoryImage}
+                    />
+                  </center>
+                  <p className={styles.categoryHolderName}>{item.name}</p>
+                </Link>
               </Col>
             );
           })}
